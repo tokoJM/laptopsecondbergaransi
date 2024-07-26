@@ -1,0 +1,505 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!--font-family-->
+        <style>
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+        .welcome-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+    </style>
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet">
+        
+        <!-- title of site -->
+        <title>Laptop second</title>
+
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+        <!--linear icon css-->
+		<link rel="stylesheet" href="assets/css/linearicons.css">
+
+        <!--flaticon.css-->
+		<link rel="stylesheet" href="assets/css/flaticon.css">
+
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+        <!--owl.carousel.css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+	
+	<body>
+		 <script>
+        function sendProductInfo(productName, productDetails) {
+            const phoneNumber = '6283832672397';
+            const encodedProductName = encodeURIComponent(productName);
+            const encodedProductDetails = encodeURIComponent(productDetails);
+            const message = `Halo%2C%20saya%20tertarik%20dengan%20produk%20berikut%3A%0A%0A${encodedProductName}%0A%0A${encodedProductDetails}%0A%0ABisakah%20Anda%20memberikan%20informasi%20lebih%20lanjut%20tentang%20produk%20ini%3F`;
+            const url = `https://wa.me/${phoneNumber}?text=${message}`;
+            window.open(url, '_blank');
+        }
+    </script>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+	
+		<!--welcome-hero start -->
+		<section id="home" class="welcome-hero">
+
+			<!-- top-area Start -->
+			<div class="top-area">
+				<div class="header-area">
+					<!-- Start Navigation -->
+				    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+
+				        <div class="container">
+
+				            <!-- Start Header Navigation -->
+				            <div class="navbar-header">
+				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+				                    <i class="fa fa-bars"></i>
+				                </button>
+				                <a class="navbar-brand" href="index.html">laptop second<span></span></a>
+
+				            </div><!--/.navbar-header-->
+				            <!-- End Header Navigation -->
+
+				            <!-- Collect the nav links, forms, and other content for toggling -->
+				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+				                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+				                    <li class=" scroll active"><a href="#home">BERANDA</a></li>
+				                     <li class="scroll"><a href="#contact">kontak</a></li>
+				                     <li class="scroll"><a href="#new-cars">laptop BARU</a></li>
+				                    <li class="scroll"><a href="#featured-cars">produk laptop </a></li>
+				                </ul><!--/.nav -->
+				            </div><!-- /.navbar-collapse -->
+				        </div><!--/.container-->
+				    </nav><!--/nav-->
+				    <!-- End Navigation -->
+				</div><!--/.header-area-->
+			    <div class="clearfix"></div>
+
+			</div><!-- /.top-area-->
+			<!-- top-area End -->
+
+			<div class="container">
+				<div class="welcome-hero-txt">
+					<h2>SELAMAT DATANG DI TOKO KAMI<br>
+					LAPTOP SECOND BERGARANSI PONTIANAK</h2><br>
+					<p style="text-align: center;">
+						kami menyediakan berbagai merek laptop second bergeransi dengan kualitas produk yang sangat baik seperti baru, serta melayani jasa service dan menjual aksesoris laptop. 
+						hubungi kontak kami di bawah
+
+					</p>
+					<button id="contact"  class="welcome-btn" onclick="window.location.href='https://chat.whatsapp.com/IFcJJp1RjbIKjyK8suldA3'">GRUP WHATSHAPP</button>
+					<br>
+					<div class="col-sm-4">
+						
+					</div>
+					<div class="col-sm-4">
+						<br><br>
+						<div class="footer-social" style="width:280px;">
+								<a href="https://www.facebook.com/profile.php"><i class="fa fa-facebook"></i></a>	
+								<a href="https://www.instagram.com/laptop_second_bergeransi?igsh=cWgxM3AzNWE1ZnFx&utm_source=qr"><i class="fa fa-instagram"></i></a>
+								<a href="https://wa.me/6283832672397"><i class="fa fa-whatsapp"></i></a>
+								 <a href="https://www.tiktok.com/@jm_computer?_t=8oLD1V4A9XV&_R=1"><i class="fa fa-tiktok"></i></a>
+							
+							</div>
+					</div>
+					<div class="col-sm-4">
+						
+					</div>
+					
+				</div>
+			</div>
+
+			
+
+											
+											
+
+											
+
+										
+			</div><!--/.container-->
+
+		</section><!--/.service-->
+		<!--service end-->
+
+		<!--new-cars start -->
+		<section id="new-cars" class="new-cars">
+			<div class="container">
+				<div class="section-header">
+					<p>BELI SEKARANG</p>
+					<h2>LAPTOP SECOND TERLARIS</h2>
+				</div><!--/.section-header-->
+				<div class="new-cars-content">
+					<div class="owl-carousel owl-theme" id="new-cars-carousel">
+						<div class="new-cars-item">
+							<div class="single-new-cars-item">
+								<div class="row">
+									<div class="col-md-7 col-sm-12">
+										<div class="new-cars-img"><br><br><br><br>
+											<img src="assets/images/new-cars-model/acer.jpeg" alt="img"/>
+										</div><!--/.new-cars-img-->
+									</div>
+									<div class="col-md-5 col-sm-12">
+										<div class="new-cars-txt">
+											<h2><a href="#">💧LAPTOP ACER RAM 8gb 💧<span> </span></a></h2>
+											<p>
+												SPEKSIFIKASI 
+											</p>
+											<p class="new-cars-para2">
+												
+💧AMD A4-9120e RADEON R3 grapich<br>
+💧Ram 8gb<br>
+💧Ssd 128gb<br>
+💧hdd 1000gb<br>
+💧14.0 inc 1366x768<br>
+💧OS WINDOWS 10 PRO ( activated)<br>
+💧Office 2016/2019 (Activated)
+💧Baterai 1 Sampai 2 Jam Lebih Tergantung Pemakaian (Bisa 3-4 Jam) <br>
+💧BLUETOOTH aktif ✅ <br>
+🔥 GARANSI 1 BULAN<br>KELENGKAPAN :
+---------------------<br>
+
+📍Unit (mulus like new)<br>
+📍Mouse (free)<br>
+📍Charger ORI<br>
+📍Tas <br>
+📍kotak Acer<br>harga : Rp 2.800.000
+											</p>
+											<button class="welcome-btn new-cars-btn" onclick="sendProductInfo('LAPTOP ACER RAM 8gb', 'AMD A4-9120e RADEON R3 grapich Ram 8gb Ssd 128gb hdd 1000gb 14.0 inc 1366x768 OS WINDOWS 10 PRO ( activated) Office 2016/2019 (Activated) Baterai 1 Sampai 2 Jam Lebih Tergantung Pemakaian (Bisa 3-4 Jam) BLUETOOTH aktif harga : Rp 2.800.000')">
+                            beli sekarang
+                        </button>
+										</div><!--/.new-cars-txt-->	
+									</div><!--/.col-->
+								</div><!--/.row-->
+							</div><!--/.single-new-cars-item-->
+						</div><!--/.new-cars-item-->
+						 <div class="new-cars-item">
+        <div class="single-new-cars-item">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <div class="new-cars-img">
+                        <img src="assets/images/new-cars-model/lenovo.jpeg" alt="img"/>
+                    </div><!--/.new-cars-img-->
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <div class="new-cars-txt">
+                        <h2><a href="#">LAPTOP LENOVO THINKPAD CORE I7</a></h2>
+                        <p>
+                            SPESIFIKASI:
+                        </p>
+                        <p class="new-cars-para2">
+                            CORE i7-4600U-2.7ghz. 
+                            <br>Ram 8Gb<br>Ssd256Gb<br>layar 14.0 inc 1600x900<br>intel hd grapich<br>OS WINDOWS 11(activated)<br>Office 2016/2019(actived)<br>baterai 1 sampai 2 jam lebih<br>keyboard blacklisht putih
+                            <br><br>KELENGKAPAN<br>Unit (muluslike new)<br>Mouse (free)<br>Tas<br><br>HARGA 3.200.000
+                        </p>
+                        <button class="welcome-btn new-cars-btn" onclick="sendProductInfo('LAPTOP LENOVO THINKPAD CORE I7', 'CORE i7-4600U-2.7ghz. Ram 8Gb Ssd256Gb layar 14.0 inc 1600x900 intel hd grapich OS WINDOWS 11(activated) Office 2016/2019(actived) baterai 1 sampai 2 jam lebih keyboard blacklisht putih Unit (muluslike new) Mouse (free) Tas HARGA 3.200.000')">
+                            beli sekarang
+                        </button>
+                    </div><!--/.new-cars-txt-->	
+                </div><!--/.col-->
+            </div><!--/.row-->	
+        </div><!--/.single-new-cars-item-->
+    </div><!--/.new-cars-item-->
+
+   
+						<div class="new-cars-item">
+							<div class="single-new-cars-item">
+								<div class="row">
+									<div class="col-md-7 col-sm-12">
+										<div class="new-cars-img"><br><br><br><br>
+											<img src="assets/images/new-cars-model/asus.jpeg" alt="img"/>
+										</div><!--/.new-cars-img-->
+									</div>
+									<div class="col-md-5 col-sm-12">
+										<div class="new-cars-txt">
+											<h2><a href="https://wa.me/6283832672397">laptop asus gaming core i7 nvidia gtx 950</a></h2>
+											<p>
+												SPESIFIKASI :
+												<br>
+CORE I7-4720HQ @2,6ghz
+💧Ram 12gb<br>
+💧Ssd 128gb<br>
+💧hdd 1000gb<br>
+💧 15’6 INC 1366x768<br>
+💧INTEL HD GRAPIC 4600<br>
+💧NVIDIA GEFORCE GTX 950M<br>
+💧OS WINDOWS 10( activated)<br>
+💧Office 2016/2019 (Activated)<br>
+💧Baterai 1 Sampai 2 Jam Lebih Tergantung Pemakaian (Bisa 3-4 Jam) <br>
+💧keyboard blacklight merah (berlampu)<br>
+💧Bluetooth <br>
+<br>KELENGKAPAN
+<br>
+Unit (mulus like new)<br>
+Mouse (free)<br>
+Charger ORI<br>
+Tas (free)
+<br><br>harga :Rp 4.500.000
+											</p>
+											<p class="new-cars-para2">
+											</p>
+											<button class="welcome-btn new-cars-btn" onclick="sendProductInfo('laptop asus gaming core i7 nvidia gtx 950', 'Ram 12gb Ssd 128gb hdd 1000gb 15’6 INC 1366x768 INTEL HD GRAPIC 4600 NVIDIA GEFORCE GTX 950M OS WINDOWS 10( activated) Office 2016/2019 (Activated) Baterai 1 Sampai 2 Jam Lebih Tergantung Pemakaian (Bisa 3-4 Jam) keyboard blacklight merah (berlampu) Bluetooth harga :Rp 4.500.000')">BELI SEKARANG</button>
+										</div><!--/.new-cars-txt-->	
+									</div><!--/.col-->
+								</div><!--/.row-->
+							</div><!--/.single-new-cars-item-->
+						</div><!--/.new-cars-item-->
+					</div><!--/#new-cars-carousel-->
+				</div><!--/.new-cars-content-->
+			</div><!--/.container-->
+
+		</section><!--/.new-cars-->
+		<!--new-cars end -->
+
+		<!--featured-cars start -->
+		<section id="featured-cars" class="featured-cars">
+			<div class="container">
+				<div class="section-header">
+					<p>ayoooo beli sekarang  <span></span> </p>
+					<h2>ready laptop second bergeransi</h2>
+				</div><!--/.section-header-->
+				<div class="featured-cars-content">
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="single-featured-cars">
+                <div class="featured-img-box">
+                    <div class="featured-cars-img">
+                        <img src="assets/images/featured-cars/asus.jpeg" alt="cars">
+                    </div>
+                    <div class="featured-model-info">
+                        <p>
+                            <h4 class="featured-mi-span" style="text-align: center;">LAPTOP ASUS GAMING PROCECOR I7<br><br>
+                            <h2 style="text-align:center;">Rp 4.500.000</h2></h4>
+                            <div class="button-container" style="text-align: center;">
+                               <button class="welcome-btn new-cars-btn" onclick="sendProductInfo('LAPTOP ASUS GAMING PROCECOR I7', 'Rp 4.500.000')">BELI SEKARANG</button>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+                <div class="featured-cars-txt"></div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="single-featured-cars">
+                <div class="featured-img-box">
+                    <div class="featured-cars-img">
+                        <img src="assets/images/featured-cars/acer.jpeg" alt="cars">
+                    </div>
+                    <div class="featured-model-info">
+                        <p>
+                            <h4 class="featured-mi-span" style="text-align:center;">laptop acer ram 8gb<br><br>
+                            <h2 style="text-align:center;">Rp 2.800.000</h2></h4>
+                            <div class="button-container" style="text-align: center;">
+                              <button class="welcome-btn new-cars-btn" onclick="sendProductInfo('laptop acer ram 8gb', 'Rp 2.800.000')">BELI SEKARANG</button>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+                <div class="featured-cars-txt"></div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="single-featured-cars">
+                <div class="featured-img-box">
+                    <div class="featured-cars-img">
+                        <img src="assets/images/featured-cars/l1.jpeg" alt="cars">
+                    </div>
+                    <div class="featured-model-info">
+                        <p>
+                            <h4 class="featured-mi-span" style="text-align:center;">laptop HP 14 SLIME WHITE<br><br>
+                            <h2 style="text-align:center;">Rp 2.600.000</h2></h4>
+                            <div class="button-container" style="text-align: center;">
+                               <button class="welcome-btn new-cars-btn" onclick="sendProductInfo('laptop HP 14 SLIME WHITE', 'Rp 2.600.000')">BELI SEKARANG</button>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+                <div class="featured-cars-txt"></div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="single-featured-cars">
+                <div class="featured-img-box">
+                    <div class="featured-cars-img">
+                        <img src="assets/images/featured-cars/l2.jpeg" alt="cars">
+                    </div>
+                    <div class="featured-model-info">
+                        <p>
+                            <h4 class="featured-mi-span" style="text-align:center;">asus gaming<br><br>
+                            <h2 style="text-align:center;">Rp 4.500.000</h2></h4>
+                            <div class="button-container" style="text-align: center;">
+                               <button class="welcome-btn new-cars-btn" onclick="sendProductInfo('asus gaming', 'Rp 4.500.000')">BELI SEKARANG</button>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+                <div class="featured-cars-txt"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="single-featured-cars">
+                <div class="featured-img-box">
+                    <div class="featured-cars-img">
+                        <img src="assets/images/featured-cars/l3.jpeg" alt="cars">
+                    </div>
+                    <div class="featured-model-info">
+                        <p>
+                            <h4 class="featured-mi-span" style="text-align:center;">laptop acer ram 10 Gb<br><br>
+                            <h2 style="text-align:center;">Rp 2.600.000</h2></h4>
+                            <div class="button-container" style="text-align: center;">
+                               <button class="welcome-btn new-cars-btn" onclick="sendProductInfo('laptop acer ram 10 Gb', 'Rp 2.600.000')">BELI SEKARANG</button>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+                <div class="featured-cars-txt"></div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="single-featured-cars">
+                <div class="featured-img-box">
+                    <div class="featured-cars-img">
+                        <img src="assets/images/featured-cars/l4.jpeg" alt="cars">
+                    </div>
+                    <div class="featured-model-info">
+                        <p>
+                            <h4 class="featured-mi-span" style="text-align:center;">laptip asus core i5 NVIDIA VGA<br><br>
+                            <h2 style="text-align:center;">Rp 3.500.000</h2></h4>
+                            <div class="button-container" style="text-align: center;">
+                               <button class="welcome-btn new-cars-btn" onclick="sendProductInfo('laptip asus core i5 NVIDIA VGA', 'Rp 3.500.000')">BELI SEKARANG</button>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+                <div class="featured-cars-txt"></div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="single-featured-cars">
+                <div class="featured-img-box">
+                    <div class="featured-cars-img">
+                        <img src="assets/images/featured-cars/l5.jpeg" alt="cars">
+                    </div>
+                    <div class="featured-model-info">
+                        <p>
+                            <h4 class="featured-mi-span" style="text-align:center;">asus ram 10gb<br><br>
+                            <h2 style="text-align:center;">Rp 2.600.000</h2></h4>
+                            <div class="button-container" style="text-align: center;">
+                              <button class="welcome-btn new-cars-btn" onclick="sendProductInfo('asus ram 10gb', 'Rp 2.600.000')">BELI SEKARANG</button>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+                <div class="featured-cars-txt"></div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="single-featured-cars">
+                <div class="featured-img-box">
+                    <div class="featured-cars-img">
+                        <img src="assets/images/featured-cars/l6.jpeg" alt="cars">
+                    </div>
+                    <div class="featured-model-info">
+                        <p>
+                            <h4 class="featured-mi-span" style="text-align:center;">laptop asus ram 8Gb<br><br>
+                            <h2 style="text-align:center;">Rp 2.500.000</h2></h4>
+                            <div class="button-container" style="text-align: center;">
+                                <button class="welcome-btn new-cars-btn" onclick="sendProductInfo('LAPTOP ASUS GAMING PROCECOR I7', 'Rp 2.500.000')">BELI SEKARANG</button>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+                <div class="featured-cars-txt"></div>
+            </div>
+        </div>
+    </div>
+</div><!--/.container-->
+
+
+		</section><!--/.featured-cars-->
+		<!--featured-cars end -->
+
+		
+		<!--contact start-->
+		
+
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+
+		<!--owl.carousel.js-->
+        <script src="assets/js/owl.carousel.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+        
+        
+    </body>
+
+	
+</html>
